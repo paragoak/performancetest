@@ -24,6 +24,11 @@
 						<artifact>kg.apc:jmeter-plugins-json:2.7</artifact>
 					</jmeterExtensions>
 					<testResultsTimestamp>false</testResultsTimestamp>
+					<propertiesUser>
+						<threads>${threadCount}</threads>
+						<rampup>${rampupTime}</rampup>
+						<!-- <duration>${durationSecond}</duration> -->
+					</propertiesUser>
 					<downloadExtensionDependencies>false</downloadExtensionDependencies>
 				</configuration>
 				<executions>
