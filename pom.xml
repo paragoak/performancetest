@@ -24,7 +24,6 @@
 						<artifact>kg.apc:jmeter-plugins-json:2.7</artifact>
 					</jmeterExtensions>
 					<testResultsTimestamp>false</testResultsTimestamp>
-
 					<downloadExtensionDependencies>false</downloadExtensionDependencies>
 				</configuration>
 				<executions>
@@ -38,8 +37,6 @@
 				</executions>
 			</plugin>
 		</plugins>
-
-
 	</build>
 
 </project>
